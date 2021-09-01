@@ -1,0 +1,12 @@
+.first-section {
+  background-image: var(--wallpaper-section-main);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-section {
+  height: 1930px; /* temporal mientras consigo contenido*/
+  grid-template-rows: 730px 650px 550px;
+}
+

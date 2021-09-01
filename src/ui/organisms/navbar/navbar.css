@@ -1,0 +1,13 @@
+.log-section {
+  width: 150px;
+  height: inherit;
+}
+
+.toggle {
+  width: 160px;
+}
+.navbar {
+  background-color: transparent;
+  backdrop-filter: blur(14px);
+  box-shadow: var(--spec-box-shadow-navbar);
+}
