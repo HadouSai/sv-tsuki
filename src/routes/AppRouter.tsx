@@ -22,6 +22,9 @@ export const AppRouter = () => {
 
         <footer className="h-14 bg-primary">
           <h1>Footer</h1>
+          <a className="hidden" href="https://www.freepik.com/vectors/work">
+            Work vector created by stories - www.freepik.com
+          </a>
         </footer>
       </div>
     </Router>

@@ -1,3 +1,4 @@
+import ManCodingSvg from "../assets/svg/man-coding.svg";
 import "./homePage.css";
 
 export const HomePage = () => {
@@ -17,7 +18,13 @@ export const HomePage = () => {
         </div>
 
         <div className="pt-7">
-          <h1>img</h1>
+          <span className="flex justify-center m-auto w-4/6 sm:w-2/4">
+            <img
+              className="img-responsive"
+              src={ManCodingSvg}
+              alt="man coding"
+            />
+          </span>
         </div>
       </section>
 
