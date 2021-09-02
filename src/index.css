@@ -36,6 +36,7 @@
       rgba(12, 10, 22, 0.863)
     ),
     url(assets/img/wallpaper/first_wallpaper_fux.webp);
+  --svg-theme: url(assets/svg/moon.svg);
 }
 
 .light {
@@ -60,6 +61,7 @@
       #f8f8f8
     ),
     linear-gradient(180deg, #fff 0%, #f8f8f8);
+  --svg-theme: url(assets/svg/sun.svg);
 }
 
 *,

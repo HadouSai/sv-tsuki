@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Toggle } from "../../molecules/Toggle";
+import { Toggle } from "../../atoms/toggle-theme/Toggle";
 import "./navbar.css";
 
 interface Props {}
@@ -42,7 +42,7 @@ export const Navbar = (props: Props) => {
           </ul>
         </nav>
 
-        <div className="toggle">
+        <div className="flex items-center pl-6 pr-7">
           <Toggle />
         </div>
       </div>
