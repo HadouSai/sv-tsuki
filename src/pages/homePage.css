@@ -6,7 +6,15 @@
 }
 
 .main-section {
-  height: 1930px; /* temporal mientras consigo contenido*/
-  grid-template-rows: 730px 650px 550px;
+  grid-template-rows: 650px 650px 550px;
+}
+@media screen and (min-width: 640px) {
+  .main-section {
+    grid-template-rows: auto 650px 550px;
+  }
 }
 
+.img-man-coding {
+  min-width: 230px;
+  max-width: 520px;
+}
