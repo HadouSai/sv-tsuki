@@ -2,11 +2,12 @@ import { useEffect } from "react";
 import { usePrefersDarkMode } from "./usePrefersDarkMode";
 import { useSafeLocalStorage } from "../useSafeLocalStorage";
 
+// FALTA DOCUMENTACION
 export const useDarkMode = () => {
   const prefersDarkMode = usePrefersDarkMode();
   const [isEnabled, setIsEnabled] = useSafeLocalStorage("dark-mode", "");
 
-  const enabled = isEnabled ? prefersDarkMode : isEnabled;
+  const enabled = typeof isEnabled === "boolean" ? isEnabled : prefersDarkMode;
 
   useEffect(() => {
     if (window === undefined) return;
