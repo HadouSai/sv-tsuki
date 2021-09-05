@@ -6,7 +6,7 @@
 }
 
 .main-section {
-  grid-template-rows: auto 650px 550px;
+  grid-template-rows: auto auto 550px;
 }
 
 .img-man-coding {
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 1024px) {
   .main-section {
-    grid-template-rows: 726px 650px 550px;
+    grid-template-rows: 726px auto 550px;
   }
 }
 /* animacion */
@@ -58,5 +58,17 @@
   }
   50% {
     border-color: orange;
+  }
+}
+
+/* second sect*/
+
+.tea-lover {
+  max-width: 400px;
+}
+
+@media screen and (min-width: 1280px) {
+  .cont-present > div:first-child {
+    max-width: 800px;
   }
 }
