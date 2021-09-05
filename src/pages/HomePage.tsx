@@ -1,5 +1,4 @@
 import ManCodingSvg from "../assets/svg/man-coding.a.svg";
-import { TypeWriter } from "../ui/atoms/typewriter-effect/TypeWriter";
 import "./homePage.css";
 
 export const HomePage = () => {
