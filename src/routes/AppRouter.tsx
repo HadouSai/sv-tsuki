@@ -3,6 +3,7 @@ import { HomePage } from "../pages/HomePage";
 import { Navbar } from "../ui/organisms/navbar/Navbar";
 
 export const AppRouter = () => {
+  
   return (
     <Router>
       <div className="grid main-container relative">

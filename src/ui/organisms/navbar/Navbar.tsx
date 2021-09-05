@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { useStyleOnNavbarScrolled } from "../../../custom-hooks/useStyleOnNavbarScrolled";
 import { Toggle } from "../../atoms/toggle-theme/Toggle";
 import "./navbar.css";
 
@@ -20,8 +21,16 @@ export const Navbar = (props: Props) => {
     },
   ];
 
+  useStyleOnNavbarScrolled({
+    className: "navbar-scrolled",
+    idNavbar: "mainNavbar",
+  });
+
   return (
-    <div className="navbar w-screen h-16 flex justify-center fixed z-30">
+    <div
+      className="navbar w-screen h-16 flex justify-center fixed z-30"
+      id="mainNavbar"
+    >
       <div className="container flex justify-around">
         <div className="log-section"></div>
 

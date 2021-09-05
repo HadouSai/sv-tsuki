@@ -9,5 +9,8 @@
 .navbar {
   background-color: transparent;
   backdrop-filter: blur(14px);
+}
+
+.navbar-scrolled {
   box-shadow: var(--spec-box-shadow-navbar);
 }
