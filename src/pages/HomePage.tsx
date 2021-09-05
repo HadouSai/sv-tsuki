@@ -1,5 +1,4 @@
 import ManCodingSvg from "../assets/svg/man-coding.a.svg";
-import { TeaLoverSvg } from "../ui/atoms/icons/TeaLoverSvg";
 import { WorkingLaptopSvg } from "../ui/atoms/icons/WorkingLaptopSvg";
 import "./homePage.css";
 
