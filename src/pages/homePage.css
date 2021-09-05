@@ -6,15 +6,57 @@
 }
 
 .main-section {
-  grid-template-rows: 650px 650px 550px;
-}
-@media screen and (min-width: 640px) {
-  .main-section {
-    grid-template-rows: auto 650px 550px;
-  }
+  grid-template-rows: auto 650px 550px;
 }
 
 .img-man-coding {
-  min-width: 230px;
-  max-width: 520px;
+  min-width: 286px;
+  max-width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+  .img-man-coding {
+    min-width: 284px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-section {
+    grid-template-rows: 726px 650px 550px;
+  }
+}
+/* animacion */
+
+.typewriter-animation {
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.13em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.11em; /* Adjust as needed */
+  animation: typing 5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  70% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
