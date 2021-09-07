@@ -1,4 +1,7 @@
 import ManCodingSvg from "../assets/svg/man-coding.a.svg";
+import TelegramaSvg from "../assets/svg/telegrama.svg";
+import GithubSvg from "../assets/svg/github.svg";
+import DiscordSvg from "../assets/svg/discord.svg";
 import { WorkingLaptopSvg } from "../ui/atoms/icons/WorkingLaptopSvg";
 import "./homePage.css";
 
@@ -74,7 +77,19 @@ export const HomePage = () => {
         </div>
       </section>
 
-      <section className="third-section bg-wallpaperSections"></section>
+      <section className="third-section bg-wallpaperSections pt-8 pb-12 px-7">
+        <div className="container mx-auto">
+          <h1 className="test-primary text-m-m sm:text-4xl text-center uppercase">
+            Find me on
+          </h1>
+
+          <div className="icons grid content-center justify-center pt-8">
+            <img className="text-lg" src={TelegramaSvg} alt="Icon Telegram" />
+            <img className="text-lg" src={GithubSvg} alt="Icon Github" />
+            <img className="text-lg" src={DiscordSvg} alt="Icon Discord" />
+          </div>
+        </div>
+      </section>
     </main>
   );
 };

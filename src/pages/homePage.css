@@ -6,7 +6,7 @@
 }
 
 .main-section {
-  grid-template-rows: auto auto 550px;
+  grid-template-rows: repeat(3, auto);
 }
 
 .img-man-coding {
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 1024px) {
   .main-section {
-    grid-template-rows: 726px auto 550px;
+    grid-template-rows: 726px repeat(2, auto);
   }
 }
 /* animacion */
@@ -71,4 +71,14 @@
   .cont-present > div:first-child {
     max-width: 800px;
   }
+}
+
+.icons {
+  grid-template-columns: 64px 64px 64px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
