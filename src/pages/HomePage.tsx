@@ -40,7 +40,7 @@ export const HomePage = () => {
 
       <section className="second-section bg-wallpaperSections pt-7 pb-12 px-7 xl:pt-10">
         <div className="cont-present container flex flex-col justify-center items-center m-auto pt-20 xl:flex-row">
-          <div className="flex flex-col w-10/12 text-primary pr-8">
+          <div className="flex flex-col text-primary sm:w-10/12 sm:pr-8">
             <h1 className="text-primary text-m-m sm:text-4xl uppercase text-center">
               Let me <span className="text-main">Introduce</span> myself
             </h1>
@@ -69,7 +69,7 @@ export const HomePage = () => {
             </div>
           </div>
 
-          <div className="pt-14 xl:pt-0">
+          <div className="pt-14 pl-20 xl:pt-0">
             <div className="tea-lover w-full">
               <WorkingLaptopSvg />
             </div>
