@@ -22,15 +22,15 @@ export const AppRouter = () => {
 
         <footer className="h-14 bg-primary">
           <div className="container h-full mx-auto flex justify-between items-center text-lg">
-            <h3 className="text-xs sm:text-sm lg:text-lg p-1">
+            <h3 className="text-primary text-xs sm:text-sm lg:text-lg p-1">
               Designed and developed by Sai Tsuki
             </h3>
 
-            <h3 className="text-xs sm:text-sm lg:text-lg p-1">
+            <h3 className="text-primary text-xs sm:text-sm lg:text-lg p-1">
               Copyright &copy; 2021 SaiTsuki.dev
             </h3>
 
-            <h3 className="text-xs sm:text-sm lg:text-lg p-1">
+            <h3 className="text-primary text-xs sm:text-sm lg:text-lg p-1">
               Mentions and assets
             </h3>
           </div>
