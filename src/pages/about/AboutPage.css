@@ -63,14 +63,13 @@
 
 @media screen and (min-width: 640px) {
   .img-man-coding {
-    min-width: 214px;
+    min-width: 284px;
   }
 
   .tea-lover {
     max-width: 310px;
   }
 }
-
 
 @media screen and (min-width: 1280px) {
   .cont-present > div:first-child {
@@ -87,3 +86,20 @@
   height: 40px;
   cursor: pointer;
 }
+
+.card {
+  font-size: 4rem;
+  margin: 15px;
+  padding: 2rem 4rem;
+  opacity: 0.93;
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: table;
+  box-shadow: 4px 5px 4px 3px rgb(89 4 168 / 14%);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  line-height: 0;
+}
+  
